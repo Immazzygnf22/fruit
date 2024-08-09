@@ -16,6 +16,7 @@
   padding: 2rem;
   justify-content: center;
   flex-direction: column;
+  color: orange;
 }
 .hero .heroText .heroText1 {
   font-size: 1.5rem;
