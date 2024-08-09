@@ -1,5 +1,5 @@
 import React from "react";
-import "./Hero.css";
+import "./hero.css";
 import heroImg from "../../img/hero-img-1.png";
 import heroImg2 from "../../img/hero-img-2.jpg";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -41,6 +41,7 @@ const Hero = () => {
             <SwiperSlide>
               <div className="fruitslide">
                 <p className="fruitslideText">Vesitable</p>
+              
               </div>
               <img src={heroImg2} alt="hero img" className="heroimg" />
             </SwiperSlide>
